@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Projects | Priyanshi Seth</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="bg-black text-white font-sans px-6 py-10">
+  <!-- 🌐 Purple Themed Navbar with Icons -->
+<nav class="absolute top-4 right-6 z-50">
+  <ul class="flex gap-6 text-purple-500 font-semibold text-lg items-center">
+    <!-- Home -->
+    <li class="flex items-center gap-2">
+      <i data-lucide="home" class="w-5 h-5 text-purple-500"></i>
+      <a href="index.html" class="hover:text-purple-300 transition">Home</a>
+    </li>
+    <!-- Resume -->
+    <li class="flex items-center gap-2">
+      <i data-lucide="file-text" class="w-5 h-5 text-purple-500"></i>
+      <a href="https://drive.google.com/file/d/1k_PpvZvRGW8O4kfXQCf_M9iFWiwQ983R/view?usp=drive_link"
+         class="hover:text-purple-300 transition">Resume</a>
+    </li>
+  </ul>
+</nav>
+
+<h1 class="text-4xl font-bold text-purple-500 mb-6">My Recent Works</h1>
+
+<div class="grid gap-6 md:grid-cols-2">
+
+  <!-- Leave Management System -->
+  <div class="p-6 border border-purple-500 rounded-lg flex flex-col justify-between">
+    <div>
+      <img src="image/l1.png" alt="Leave Management System Image" class="rounded-lg mb-4">
+      <h2 class="text-2xl font-semibold mb-2">Leave Management System</h2>
+      <p>Java-based system with approval workflow, parental confirmation, and automated notifications.</p>
+    </div>
+    <a href="https://github.com/priyanshi20045/Leave-Management-System"
+       class="mt-4 inline-flex bg-white text-black items-center gap-2 border border-purple-500 hover:text-white hover:bg-purple-500 transition px-3 py-1 rounded-md w-max">
+      <i data-lucide="github" class="w-5 h-5"></i>
+      <span class="text-sm">GitHub</span>
+    </a>
+  </div>
+
+  <!-- Library Management System -->
+  <div class="p-6 border border-purple-500 rounded-lg flex flex-col justify-between">
+    <div>
+      <img src="image/library.png"  class="rounded-lg mb-4">
+      <h2 class="text-2xl font-semibold mb-2">Library Management System</h2>
+      <p>Console system using C++ for book issue/return and admin CRUD operations.</p>
+    </div>
+    <a href="https://github.com/priyanshi20045/Library-Management-System"
+       class="mt-4 inline-flex bg-white text-black items-center gap-2 border border-purple-500 hover:text-white hover:bg-purple-500 transition px-3 py-1 rounded-md w-max">
+      <i data-lucide="github" class="w-5 h-5"></i>
+      <span class="text-sm">GitHub</span>
+    </a>
+  </div>
+
+  <!-- Quiz Game -->
+  <div class="p-6 border border-purple-500 rounded-lg flex flex-col justify-between">
+    <div>
+      <img src="image/k1.png" alt="Quiz Game Image" class="rounded-lg mb-4">
+      <h2 class="text-2xl font-semibold mb-2">Quiz Game</h2>
+      <p>Python quiz app with milestone-based rewards and instant feedback.</p>
+    </div>
+    <a href="https://github.com/priyanshi20045/KBC-GAME"
+       class="mt-4 inline-flex bg-white text-black items-center gap-2 border border-purple-500 hover:text-white hover:bg-purple-500 transition px-3 py-1 rounded-md w-max">
+      <i data-lucide="github" class="w-5 h-5"></i>
+      <span class="text-sm">GitHub</span>
+    </a>
+  </div>
+
+</div>
+
+<script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
